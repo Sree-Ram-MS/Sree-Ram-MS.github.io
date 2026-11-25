@@ -1,23 +1,21 @@
-# Sree Ram MS — GitHub-inspired portfolio
+# Sree Ram MS portfolio
 
-A responsive developer portfolio styled like a GitHub profile page. Built with static HTML, CSS, and vanilla JavaScript; it has no build step, backend, or paid hosting requirement. The profile avatar loads from the public GitHub account and falls back to a generated initials illustration if unavailable. The Projects, Skills, and Contact tabs switch the main panel with a slide transition, and the light/dark theme choice is saved in the browser. Google Fonts are optional and system fallbacks are included.
+A landing page for an Odoo developer and the maker of Isle, an open source GNOME Shell extension. Static HTML, CSS and vanilla JavaScript, with no build step and no requests to other websites. Fonts are served from `fonts/`.
+
+## Files
+
+- `index.html`: the landing page
+- `privacy.html`, `terms.html`, `404.html`: supporting pages
+- `styles.css`: design tokens, named text styles and components
+- `script.js`: mobile menu, scroll reveals, the word by word tagline and the current section indicator
+- `fonts/`: Geist (Regular, Medium, SemiBold)
+- `images/og.png`: social sharing image
 
 ## Publish with GitHub Pages
 
-Create a public repository named **`Sree-Ram-MS.github.io`** and put the contents of this folder in its root.
-
-1. Push the files to the repository's `main` branch.
-2. Open **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select **main** and **/(root)**, then save.
-5. After deployment, visit `https://sree-ram-ms.github.io/`.
+Push to the branch Pages deploys from, then check Settings, Pages. The site URL is `https://sree-ram-ms.github.io/`.
 
 ## Personalize
 
-- Edit the bio and Odoo descriptions in `index.html` to match your exact role and voice.
-- Add more specific Odoo projects, versions, responsibilities, and results as you choose what to share.
-- Add email, LinkedIn, résumé, or other profile links if you want them shown.
-- The Isle description and its ten utility pages come from its public repository; update these if the project changes.
-- Colors and layout are in `styles.css`; pointer tilt and scroll reveals are in `script.js`.
-
-The portfolio illustration and animated 3D elements are CSS/HTML, so they need no image library or 3D package.
+- The main action is the Isle link in `index.html` (search for `Explore Isle on GitHub`). Point it at an email or LinkedIn link if you prefer.
+- Add testimonials or more projects as real ones become available.
