@@ -117,3 +117,5 @@
 @media(prefers-reduced-motion:reduce) {
   .view-panel.is-active,.view-panel.is-leaving { animation-duration:.01ms; }
 }
+
+a:focus-visible,button:focus-visible { outline:2px solid #54aeff;outline-offset:2px; }
